@@ -1,4 +1,4 @@
-package day2
+package day1
 
 import(
 	"fmt"
@@ -7,8 +7,8 @@ import(
 )
 
 
-func Solve(){
-	lines := reader.GetLines("./day1/full_input.txt")
+func SolveB(){
+	lines := reader.GetLines("./day1/input/full_input.txt")
 	s := 0
 	for _, line := range lines {
 		HRline := utils.TranformDigitsToHR(line)

@@ -6,8 +6,8 @@ import(
 	"github.com/IoanaAdrian/AOC-2023/utils"
 )
 
-func Solve(){
-	lines := reader.GetLines("./day1/full_input.txt")
+func SolveA(){
+	lines := reader.GetLines("./day1/input/full_input.txt")
 	result := 0
 	for _, line := range lines {
 		firstDigit, err := utils.GetFirstDigit(line)
