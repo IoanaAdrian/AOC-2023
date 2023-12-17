@@ -1,9 +1,9 @@
 package main
 
-import "github.com/IoanaAdrian/AOC-2023/day3"
+import "github.com/IoanaAdrian/AOC-2023/day4"
 
 func main(){
 	
-	day3.SolveB()
+	day4.SolveB()
 	
 }
